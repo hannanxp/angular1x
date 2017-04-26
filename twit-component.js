@@ -1,5 +1,3 @@
-angular.module('myApp', []);
-
 angular.module('myApp').component('twitPage', {
   templateUrl: 'twit-template.html',
   controller: function twitController() {
