@@ -8,27 +8,9 @@
     <link href="starter-template.css" rel="stylesheet">
     <script src="controller.js"></script>
   </head>
-  <body ng-controller="TwitController">
+  <body>
 
-    <div class="container">
-      <form ng-submit="shareTwit()">
-        <div class="row">
-          <div class="col-md-8">
-            <input class="form-control" ng-model="msg" placeholder="apa yang Anda pikirkan?">
-          </div>  
-          <div class="col-md-4">
-            <button class="btn btn-primary">Share!</button>
-          </div>  
-        </div>
-      </form>
-            
-      <p class="twit twit-blue">{{msg}}</p>
-      
-      <p ng-repeat="text in twits" class="twit">
-        {{text}}
-      </p>        
-    </div><!-- /.container -->
-
+    <twit-page></twit-page>
 
   </body>
 </html>

@@ -1,0 +1,18 @@
+<div class="container">
+  <form ng-submit="$ctrl.shareTwit()">
+    <div class="row">
+      <div class="col-md-8">
+        <input class="form-control" ng-model="$ctrl.msg" placeholder="apa yang Anda pikirkan?">
+      </div>  
+      <div class="col-md-4">
+        <button class="btn btn-primary">Share!</button>
+      </div>  
+    </div>
+  </form>
+
+  <p class="twit twit-blue">{{$ctrl.msg}}</p>
+
+  <p ng-repeat="text in $ctrl.twits track by $index" class="twit">
+    {{text}}
+  </p>        
+</div><!-- /.container -->
