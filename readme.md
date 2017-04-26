@@ -3,12 +3,13 @@
 Angularjs1x adalah repo untuk Tutorial Angular 1x.
 
 Yang di bahas pada tutorial ini antara lain
-  - Hello, world!
-  - Directives & Filters
-  - Module & Controller
-  - Components
-  - XHR
-  - dll...
+  - Hello, world! (step-00)
+  - Directives & Filters (step-01, step-02, step-03)
+  - Module & Controller (step-04, step-05)
+  - Components (step-06)
+  - XHR (step-07)
+  - ...
+ 
 
 ## Requirement
 
@@ -29,3 +30,5 @@ $ npm install
 $ git checkout -f step-00
 $ http-server
 ```
+
+Untuk melihat hasilnya, buka alamat web browser http://localhost:8080/
