@@ -12,7 +12,7 @@
 
   <p class="twit twit-blue">{{$ctrl.msg}}</p>
 
-  <p ng-repeat="t in $ctrl.twits track by $index" class="twit">
+  <p ng-repeat="t in $ctrl.twits" class="twit">
     {{t.twit}} - on {{t.created}}
   </p>        
 </div><!-- /.container -->
