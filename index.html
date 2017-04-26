@@ -10,17 +10,18 @@
   </head>
   <body ng-controller="TwitController">
 
-
     <div class="container">
-      <div class="row">
-        <div class="col-md-8">
-          <input class="form-control" ng-model="msg" placeholder="apa yang Anda pikirkan?">
-        </div>  
-        <div class="col-md-4">
-          <button class="btn btn-primary" ng-click="shareTwit()">Share!</button>
-        </div>  
-      </div>
-      
+      <form ng-submit="shareTwit()">
+        <div class="row">
+          <div class="col-md-8">
+            <input class="form-control" ng-model="msg" placeholder="apa yang Anda pikirkan?">
+          </div>  
+          <div class="col-md-4">
+            <button class="btn btn-primary">Share!</button>
+          </div>  
+        </div>
+      </form>
+            
       <p class="twit twit-blue">{{msg}}</p>
       
       <p ng-repeat="text in twits" class="twit">

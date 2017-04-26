@@ -11,7 +11,7 @@ myApp.controller('TwitController', ['$scope', function ($scope) {
     ];
     
     $scope.shareTwit = function() {
-      $scope.twits.push($scope.msg);
+      $scope.twits.unshift($scope.msg);
       $scope.msg = "";
     };
 
