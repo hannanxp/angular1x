@@ -10,10 +10,19 @@ Yang di bahas pada tutorial ini antara lain
   - XHR
   - dll...
 
+## Requirement
+
+Untuk menjalankan kode program, dibutuhkan *npm*.
+
+Jika sudah ada, install package *http-server*
+
+```sh
+$ npm install -g http-server
+```
 
 ## Installation
 
-Install the dependencies and devDependencies and start the server.
+Lakukan cara berikut untuk menjalankan contoh kode tutorial:
 
 ```sh
 $ npm install
